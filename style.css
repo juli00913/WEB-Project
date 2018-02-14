@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Patua+One');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+ .intro {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url('black-bg-gecko.jpg') no-repeat 50% 60%;
+    display: table;
+    background-size: cover; 
+} 
+.lizards-bg {
+    width: 100%;
+    height: 100%;
+    margin: auto;    
+    background: url('iguana.jpg') no-repeat 50% 60%;
+    display: table;
+    background-size: cover; 
+}
+.frogs-bg {
+    width: 100%;
+    height: 100%;
+    margin: auto;    
+    background: url('frog.jpg') no-repeat 50% 60%;
+    display: table;
+    background-size: cover; 
+}
+.salamanders-bg {
+    width: 100%;
+    height: 100%;
+    margin: auto;    
+    background: url('salamander.jpg') no-repeat 50% 60%;
+    display: table;
+    background-size: cover;  
+}
+.snakes-bg {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url('snake.jpg') no-repeat 50% 60%;
+    display: table;
+    background-size: cover; 
+} 
+.turtles-bg {
+    width: 100%;
+    height: 100%;
+    margin: auto;        
+    background: url('turtle.jpeg') no-repeat 50% 60%;
+    display: table;
+    background-size: cover;
+}
+intro.container{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none; 
+}
+.header {
+    padding: 5px;
+    top: 100px;
+}
+nav>ul {
+    position: absolute;
+}
+nav>ul>li {
+    list-style: none;
+    float: left;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(40, 40, 40);  
+    border-radius: 9px;
+}
+nav>ul>li:hover {
+    color: #fff;
+    background-color: rgb(70, 70, 70);
+    
+}
+nav>ul>li>a {
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+}
+/* .p {
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}  */
+/* .logo {
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    padding: 60%; 
+    right: -700px;
+}*/
